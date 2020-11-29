@@ -31,3 +31,15 @@
     height: 57.8129vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    margin: 90px auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    margin: 66px auto 64px auto;
+  }
+}
