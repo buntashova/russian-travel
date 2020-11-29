@@ -1,1 +1,26 @@
-.intro {}
+.intro {
+  display: grid;
+  margin: 0 0 0 calc(50% - (984px / 2));
+  max-width: 690px;
+  margin-bottom: 92px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 24px 88px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: 0 16px 64px 16px;
+  }
+}
