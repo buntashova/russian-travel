@@ -11,6 +11,15 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__list-element {
+    margin-right: 2.08333vw;
+  }
+  .footer__list-element:last-of-type {
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__list-element {
     margin-right: 0;

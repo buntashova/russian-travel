@@ -2,11 +2,17 @@
   position: relative;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   text-align: center;
   max-width: 560px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 9.375vw;
+  }
 }
 
 @media screen and (max-width: 320px) {
