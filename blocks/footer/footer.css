@@ -22,5 +22,6 @@
     height: 310px;
     align-items: start;
     margin-left: 16px;
+    margin-right: 0;
   }
 }

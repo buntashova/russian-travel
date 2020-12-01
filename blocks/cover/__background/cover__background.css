@@ -34,12 +34,14 @@
 
 @media screen and (max-width: 768px) {
   .cover__background {
-    margin: 90px auto 88px auto;
+    margin-top: 90px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__background {
-    margin: 66px auto 64px auto;
+    margin-top: 66px;
+    margin-bottom: 64px;
   }
 }
