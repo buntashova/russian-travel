@@ -3,7 +3,7 @@
   background-size: cover;
   margin: 92px auto;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,9 +26,16 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1028px) {
   .cover__background {
-    height: 57.8129vw;
+    min-height: 57.8129vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 62.5vw;
+    max-width: 100%;
   }
 }
 

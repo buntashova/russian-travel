@@ -2,16 +2,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 18px;
-  margin: 0 48px 0 48px;
+  min-height: 18px;
+  margin: 0 auto 0 auto;
   padding-bottom: 24px;
-  max-width: 100%;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     margin-left: 3.125vw;
     margin-right: 3.125vw;
+    max-width: 720px;
   }
 }
 
@@ -19,7 +35,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    height: 310px;
+    max-width: 186px;
     align-items: start;
     margin-left: 16px;
     margin-right: 0;
